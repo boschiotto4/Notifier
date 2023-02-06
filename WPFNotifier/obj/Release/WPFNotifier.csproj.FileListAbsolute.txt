@@ -1,0 +1,12 @@
+C:\Home\DEV\Notifier\WPFNotifier\bin\Release\WPFNotifier.dll
+C:\Home\DEV\Notifier\WPFNotifier\bin\Release\WPFNotifier.pdb
+C:\Home\DEV\Notifier\WPFNotifier\obj\Release\Notifier.baml
+C:\Home\DEV\Notifier\WPFNotifier\obj\Release\Notifier.g.cs
+C:\Home\DEV\Notifier\WPFNotifier\obj\Release\WPFNotifier_MarkupCompile.cache
+C:\Home\DEV\Notifier\WPFNotifier\obj\Release\WPFNotifier.g.resources
+C:\Home\DEV\Notifier\WPFNotifier\obj\Release\WPFNotify.Properties.Resources.resources
+C:\Home\DEV\Notifier\WPFNotifier\obj\Release\WPFNotifier.csproj.GenerateResource.Cache
+C:\Home\DEV\Notifier\WPFNotifier\obj\Release\WPFNotifier.dll
+C:\Home\DEV\Notifier\WPFNotifier\obj\Release\WPFNotifier.pdb
+C:\Home\DEV\Notifier\WPFNotifier\obj\Release\WPFNotifier.csprojAssemblyReference.cache
+C:\Home\DEV\Notifier\WPFNotifier\obj\Release\WPFNotifier.csproj.CoreCompileInputs.cache

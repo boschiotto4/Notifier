@@ -1,0 +1,17 @@
+C:\Home\DEV\Notifier\Notifier\bin\Release\Notifier.dll
+C:\Home\DEV\Notifier\Notifier\bin\Release\Notifier.pdb
+C:\Home\DEV\Notifier\Notifier\obj\Release\Notify.Notifier.resources
+C:\Home\DEV\Notifier\Notifier\obj\Release\Notify.Properties.Resources.resources
+C:\Home\DEV\Notifier\Notifier\obj\Release\Notifier.csproj.GenerateResource.Cache
+C:\Home\DEV\Notifier\Notifier\obj\Release\Notifier.dll
+C:\Home\DEV\Notifier\Notifier\obj\Release\Notifier.pdb
+C:\WORK\Software\Tools\Notifier\Notifier\bin\Release\Notifier.dll
+C:\WORK\Software\Tools\Notifier\Notifier\bin\Release\Notifier.pdb
+C:\WORK\Software\Tools\Notifier\Notifier\obj\Release\Notifier.csprojResolveAssemblyReference.cache
+C:\WORK\Software\Tools\Notifier\Notifier\obj\Release\Notify.Notifier.resources
+C:\WORK\Software\Tools\Notifier\Notifier\obj\Release\Notify.Properties.Resources.resources
+C:\WORK\Software\Tools\Notifier\Notifier\obj\Release\Notifier.csproj.GenerateResource.Cache
+C:\WORK\Software\Tools\Notifier\Notifier\obj\Release\Notifier.dll
+C:\WORK\Software\Tools\Notifier\Notifier\obj\Release\Notifier.pdb
+C:\Home\DEV\Notifier\Notifier\obj\Release\Notifier.csprojAssemblyReference.cache
+C:\Home\DEV\Notifier\Notifier\obj\Release\Notifier.csproj.CoreCompileInputs.cache

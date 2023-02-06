@@ -1,0 +1,8 @@
+C:\WORK\Progetti\Tools\Toast\Toast\bin\Release\Toast.dll
+C:\WORK\Progetti\Tools\Toast\Toast\bin\Release\Toast.pdb
+C:\WORK\Progetti\Tools\Toast\Toast\obj\Release\Toasts.Toast.resources
+C:\WORK\Progetti\Tools\Toast\Toast\obj\Release\Toasts.Properties.Resources.resources
+C:\WORK\Progetti\Tools\Toast\Toast\obj\Release\Toast.csproj.GenerateResource.Cache
+C:\WORK\Progetti\Tools\Toast\Toast\obj\Release\Toast.dll
+C:\WORK\Progetti\Tools\Toast\Toast\obj\Release\Toast.pdb
+C:\WORK\Progetti\Tools\Toast\Toast\obj\Release\Toast.csprojResolveAssemblyReference.cache

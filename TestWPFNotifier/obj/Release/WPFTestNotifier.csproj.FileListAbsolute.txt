@@ -1,0 +1,16 @@
+C:\Home\DEV\Notifier\TestWPFNotifier\obj\Release\TestWPFNotifier.exe
+C:\Home\DEV\Notifier\TestWPFNotifier\obj\Release\TestWPFNotifier.pdb
+C:\Home\DEV\Notifier\TestWPFNotifier\bin\Release\TestWPFNotifier.exe
+C:\Home\DEV\Notifier\TestWPFNotifier\bin\Release\TestWPFNotifier.pdb
+C:\Home\DEV\Notifier\TestWPFNotifier\bin\Release\WPFNotifier.dll
+C:\Home\DEV\Notifier\TestWPFNotifier\bin\Release\WPFNotifier.pdb
+C:\Home\DEV\Notifier\TestWPFNotifier\obj\Release\MainWindow.baml
+C:\Home\DEV\Notifier\TestWPFNotifier\obj\Release\MainWindow.g.cs
+C:\Home\DEV\Notifier\TestWPFNotifier\obj\Release\App.g.cs
+C:\Home\DEV\Notifier\TestWPFNotifier\obj\Release\TestWPFNotifier_MarkupCompile.cache
+C:\Home\DEV\Notifier\TestWPFNotifier\obj\Release\TestWPFNotifier.g.resources
+C:\Home\DEV\Notifier\TestWPFNotifier\obj\Release\TestWPFNotifier.Properties.Resources.resources
+C:\Home\DEV\Notifier\TestWPFNotifier\obj\Release\WPFTestNotifier.csproj.GenerateResource.Cache
+C:\Home\DEV\Notifier\TestWPFNotifier\obj\Release\WPFTestNotifier.csprojAssemblyReference.cache
+C:\Home\DEV\Notifier\TestWPFNotifier\obj\Release\WPFTestNotifier.csproj.CoreCompileInputs.cache
+C:\Home\DEV\Notifier\TestWPFNotifier\obj\Release\WPFTestNotifier.csproj.CopyComplete

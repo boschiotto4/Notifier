@@ -1,0 +1,15 @@
+C:\WORK\Progetti\Tools\Notifier\Notifier\bin\Debug\Toast.dll
+C:\WORK\Progetti\Tools\Notifier\Notifier\bin\Debug\Toast.pdb
+C:\WORK\Progetti\Tools\Notifier\Notifier\obj\Debug\Notify.Toast.resources
+C:\WORK\Progetti\Tools\Notifier\Notifier\obj\Debug\Notify.Properties.Resources.resources
+C:\WORK\Progetti\Tools\Notifier\Notifier\obj\Debug\Toast.csproj.GenerateResource.Cache
+C:\WORK\Progetti\Tools\Notifier\Notifier\obj\Debug\Toast.dll
+C:\WORK\Progetti\Tools\Notifier\Notifier\obj\Debug\Toast.pdb
+C:\WORK\Progetti\Tools\Toast\Toast\bin\Debug\Toast.dll
+C:\WORK\Progetti\Tools\Toast\Toast\bin\Debug\Toast.pdb
+C:\WORK\Progetti\Tools\Toast\Toast\obj\Debug\Toasts.Toast.resources
+C:\WORK\Progetti\Tools\Toast\Toast\obj\Debug\Toasts.Properties.Resources.resources
+C:\WORK\Progetti\Tools\Toast\Toast\obj\Debug\Toast.csproj.GenerateResource.Cache
+C:\WORK\Progetti\Tools\Toast\Toast\obj\Debug\Toast.dll
+C:\WORK\Progetti\Tools\Toast\Toast\obj\Debug\Toast.pdb
+C:\WORK\Progetti\Tools\Toast\Toast\obj\Debug\Toast.csprojResolveAssemblyReference.cache

@@ -1,0 +1,109 @@
+﻿<Window x:Class="WPFNotify.Notifier"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	Title="Notifier" WindowStyle="None" ResizeMode="NoResize" ShowInTaskbar="False"
+    AllowsTransparency="True"
+    Height="117" Width="324" Topmost="True" BorderThickness="1" MouseDown="onMouseDownDrag" Closed="onClosed" >
+    <Window.BorderBrush>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FF2B2B2B" Offset="0"/>
+            <GradientStop Color="#FFB0B0B0" Offset="0.95"/>
+        </LinearGradientBrush>
+    </Window.BorderBrush>
+    <Window.Background>
+        <SolidColorBrush Color="White" Opacity="0.98"/>
+    </Window.Background>
+    <Grid Name="contentGrid" Height="117" Width="324" Margin="0 0 0 0">
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform/>
+                <RotateTransform/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+        <Label Name="noteIdText" Height="18" Width="30" FontSize="11" FontFamily="Microsoft Sans Serif" TabIndex="7" Visibility="Hidden" Margin="296,88,-2,11" HorizontalAlignment="Right" VerticalAlignment="Bottom" >0000</Label>
+        <Label x:Name="titleText" Height="24" Width="324" FontFamily="Microsoft Sans Serif" TabIndex="6" Foreground="White" Margin="0,0,0,93" HorizontalAlignment="Right" VerticalAlignment="Center" FontWeight="Bold" Style="{DynamicResource LabelStyleTitle}" Background="#FF469FD3" MouseEnter="onMouseEnter" MouseLeave="onMouseLeave" >
+        </Label>
+        <Button Style="{DynamicResource ButtonStyleClose}" x:Name="buttonClose" Content="" Width="24" Height="24"  HorizontalAlignment="Right" Margin="0,0,0,0" VerticalAlignment="Top" BorderThickness="0" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="OnCloseClick" MouseEnter="onMouseEnter" MouseLeave="onMouseLeave">
+            <Button.Resources>
+                <Style x:Key="ButtonStyleClose" TargetType="{x:Type Button}">
+                    <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+                    <Setter Property="Padding" Value="2"/>
+                    <Setter Property="BorderThickness" Value="1"/>
+                    <Setter Property="Background" Value="Transparent"/>
+                    <Setter Property="BorderBrush" Value="Transparent"/>
+                    <Setter Property="HorizontalAlignment" Value="Center"/>
+                    <Setter Property="VerticalAlignment" Value="Center"/>
+                    <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                    <Setter Property="VerticalContentAlignment" Value="Center"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border x:Name="Bd" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" Padding="{TemplateBinding Padding}" SnapsToDevicePixels="True">
+                                    <ContentPresenter ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" ContentStringFormat="{TemplateBinding ContentStringFormat}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                    </Trigger>
+                                    <Trigger Property="IsKeyboardFocused" Value="True">
+                                    </Trigger>
+                                    <Trigger Property="IsPressed" Value="True">
+                                    </Trigger>
+                                    <Trigger Property="IsEnabled" Value="False">
+                                        <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Style="{DynamicResource ButtonStyleMenu}" x:Name="buttonMenu" Content="" Width="24" Height="24"  HorizontalAlignment="Right" Margin="0,0,25,0" VerticalAlignment="Top" Loaded="OnLoad" BorderBrush="{x:Null}" BorderThickness="0" Foreground="{x:Null}" Click="onMenuClick" MouseLeave="onMouseLeave" MouseEnter="onMouseEnter">
+            <Button.Resources>
+                <Style x:Key="ButtonStyleMenu" TargetType="{x:Type Button}">
+                    <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+                    <Setter Property="Padding" Value="2"/>
+                    <Setter Property="BorderThickness" Value="1"/>
+                    <Setter Property="Background" Value="Transparent"/>
+                    <Setter Property="BorderBrush" Value="Transparent"/>
+                    <Setter Property="HorizontalAlignment" Value="Center"/>
+                    <Setter Property="VerticalAlignment" Value="Center"/>
+                    <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                    <Setter Property="VerticalContentAlignment" Value="Center"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border x:Name="Bd" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" Padding="{TemplateBinding Padding}" SnapsToDevicePixels="True">
+                                    <ContentPresenter ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" ContentStringFormat="{TemplateBinding ContentStringFormat}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                    </Trigger>
+                                    <Trigger Property="IsKeyboardFocused" Value="True">
+                                    </Trigger>
+                                    <Trigger Property="IsPressed" Value="True">
+                                    </Trigger>
+                                    <Trigger Property="IsEnabled" Value="False">
+                                        <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Resources>
+            <Button.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Close All" Click="onMenuCloseAllClick" />
+                </ContextMenu>
+            </Button.ContextMenu>
+        </Button>
+        <Label Name="noteDate" Height="18" Width="100" FontFamily="Microsoft Sans Serif" TabIndex="4" Margin="0,0,213,0" HorizontalAlignment="Right" VerticalAlignment="Bottom" FontSize="8" >- -</Label>
+        <Label Name="noteContent" Height="63" Width="271" FontSize="11" FontFamily="Microsoft Sans Serif" TabIndex="3" Margin="0,31,10,23" HorizontalAlignment="Right" VerticalContentAlignment="Center" Background="{x:Null}" FontWeight="Bold" >
+        </Label>
+        <Image Name="icon" HorizontalAlignment="Left" Height="24" Margin="9,51,0,0" VerticalAlignment="Top" Width="24"/>
+    </Grid>
+</Window>
+

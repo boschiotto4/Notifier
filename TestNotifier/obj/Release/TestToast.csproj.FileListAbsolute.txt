@@ -1,0 +1,10 @@
+C:\WORK\Progetti\Tools\Notifier\TestNotifier\bin\Release\TestNotifier.exe
+C:\WORK\Progetti\Tools\Notifier\TestNotifier\bin\Release\TestNotifier.pdb
+C:\WORK\Progetti\Tools\Notifier\TestNotifier\bin\Release\Notifier.dll
+C:\WORK\Progetti\Tools\Notifier\TestNotifier\bin\Release\Notifier.pdb
+C:\WORK\Progetti\Tools\Notifier\TestNotifier\obj\Release\TestToast.csprojResolveAssemblyReference.cache
+C:\WORK\Progetti\Tools\Notifier\TestNotifier\obj\Release\TestNotifier.Form1.resources
+C:\WORK\Progetti\Tools\Notifier\TestNotifier\obj\Release\TestNotifier.Properties.Resources.resources
+C:\WORK\Progetti\Tools\Notifier\TestNotifier\obj\Release\TestToast.csproj.GenerateResource.Cache
+C:\WORK\Progetti\Tools\Notifier\TestNotifier\obj\Release\TestNotifier.exe
+C:\WORK\Progetti\Tools\Notifier\TestNotifier\obj\Release\TestNotifier.pdb
